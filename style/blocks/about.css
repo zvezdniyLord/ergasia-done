@@ -1,0 +1,27 @@
+.about__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.about__img {
+    margin-top: 5px;
+}
+
+.about__info {
+    margin-left: 60px;
+    width: 530px;
+}
+
+.about__info > p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #535353;
+    margin-bottom: 16px;
+}
+
+.about__title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #4d5a6b;
+}

@@ -1,0 +1,42 @@
+.info__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__block-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.info-small {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.info__block-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__block-right-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info__block-right {
+    width: 500px;
+    max-width: 500px;
+}
+
+.info__table-right {
+    max-width: 250px;
+    text-align: end;
+}
