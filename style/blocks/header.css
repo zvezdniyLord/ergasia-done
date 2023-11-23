@@ -148,7 +148,6 @@
     height: 20vh;
 }
 
-
 @keyframes blink {
     from {
         opacity: 1;
