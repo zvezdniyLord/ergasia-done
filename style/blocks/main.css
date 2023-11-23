@@ -88,9 +88,23 @@
     transform: translate(-50%, -50%);
 }
 
+.header__banner-photo {
+    overflow: hidden;
+}
+
+.header__banner-img {
+    width: 100%;
+}
+
 .wrapper {
     display: flex;
     width: 1100px;
+    animation: slide 35s infinite;
+}
+
+.wrapper-banner {
+    display: flex;
+    width: 535px;
     animation: slide 16s infinite;
 }
 

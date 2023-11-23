@@ -58,7 +58,18 @@
 
 .header__menu-li-main > a {
     color: #000;
+}
 
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-left: 95px;
+}
+
+.header__li > a {
+    color: #000;
 }
 
 .header__svg {
@@ -131,10 +142,6 @@
     font-size: 16px;
     margin-bottom: 32px;
     margin-top: 16px;
-}
-
-.banner-img {
-    margin-left: 40px;
 }
 
 .header-not-vh {
