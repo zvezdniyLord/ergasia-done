@@ -16,11 +16,14 @@
     max-width: 500px;
     flex-wrap: wrap;
     margin-top: 10px;
+    justify-content: space-between;
 }
 
 .info-small {
     margin-top: 10px;
-    margin-left: 15px;
+    width: 235px;
+    max-height: 300px;
+    min-height: 200px;
 }
 
 .info__block-right {

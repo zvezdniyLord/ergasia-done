@@ -155,10 +155,10 @@
         transform: translateX(-200%);
     }
     80% {
-        transform: translateX(-200%);
+        transform: translateX(-300%);
     }
     100% {
-        transform: translateX(-200%);
+        transform: translateX(-300%);
     }
 }
 

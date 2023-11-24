@@ -25,3 +25,10 @@
     margin-top: 22px;
     font-weight: 600;
 }
+
+.places__title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
