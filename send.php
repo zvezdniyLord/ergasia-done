@@ -7,10 +7,12 @@ $chat_id = "170195649";
 if ($_POST['act'] == 'order') {
     $name = ($_POST['name']);
     $phone = ($_POST['phone']);
+    $email = ($_POST['email'])
 
     $arr = array(
         'Имя:' => $name,
-        'Телефон:' => $phone
+        'Телефон:' => $phone,
+        'Email' => $email
     );
 
     foreach($arr as $key => $value) {
