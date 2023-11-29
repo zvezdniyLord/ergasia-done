@@ -64,15 +64,20 @@
                 </div>
                 <div class="contacts__form">
                     <h3>Напишите нам</h3>
-                    <form class="contact-form" action="#" method="POST">
-                        <div>
-                            <input class="form__input" type="text" placeholder="Имя">
-                            <input class="form__input" type="text" placeholder="Email">
-                        </div>
-                        <input class="form__input" type="text" placeholder="Телефон">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <button class="btn__contacts">Отправить</button>
-                    </form>
+                    
+<form class="form" method="post" action="/send.php">
+	<div class="form__item">
+		<input class="form__input" type="text" name="name" required>
+		<label class="form__label">Ваше имя</label>
+	</div>
+	<div class="form__item">
+		<input class="form__input" type="text" name="phone" required>
+		<label class="form__label">Номер телефона</label>
+	</div>
+	<input class="form__input btn" type="submit" value="Отправить">
+	<input type="hidden" name="act" value="order">
+</form>
+
                 </div>
             </div>
         </div>
