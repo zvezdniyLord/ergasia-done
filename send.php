@@ -1,9 +1,9 @@
 
 <?php
 
-$token = "1094153697:AAFiLXXXXXLl0hRDsxBij1lddKydKxSSsOg04";
+$token = "6775023082:AAEXfmuHyc9okoy8-5qxw2gAk2y5bnYEYw4";
 
-$chat_id = "-40XXXX740";
+$chat_id = "170195649";
 
 if ($_POST['act'] == 'order') {
     $name = ($_POST['name']);
