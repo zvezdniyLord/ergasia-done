@@ -9,11 +9,13 @@ if ($_POST['act'] == 'order') {
     $name = ($_POST['name']);
     $phone = ($_POST['phone']);
     $email = ($_POST['email']);
+    $textarea = ($_POST['textarea']);
 
     $arr = array(
         'Имя:' => $name,
         'Телефон:' => $phone,
-        'Почта' => $email
+        'Почта' => $email,
+        'Текст' => $textarea
     );
 
     foreach($arr as $key => $value) {
