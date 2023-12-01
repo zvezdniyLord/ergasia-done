@@ -17,7 +17,6 @@ if ($_POST['act'] == 'order') {
         'Почта' => $email,
         'Текст' => $textarea
     );
-
     foreach($arr as $key => $value) {
         $txt .= "<b>".$key."</b> ".$value."%0A";
     };

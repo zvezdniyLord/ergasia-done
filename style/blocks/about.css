@@ -25,3 +25,16 @@
     margin-bottom: 15px;
     color: #4d5a6b;
 }
+
+.textarea {
+    border: 1px solid #d1d1d1;
+    width: 100%;
+}
+
+.contacts__form {
+    max-width: 620px;
+}
+
+.form-items {
+    display: flex;
+}
